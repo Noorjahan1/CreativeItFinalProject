@@ -1,0 +1,654 @@
+/*All Common Css*/
+*{
+    margin: 0;
+    padding:0;
+    outline:0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+/* All Common Css ends */
+/*Menu Part Starts*/
+.navbar-light .navbar-nav .nav-link {
+    color: #944bff;
+    font-size:20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    transition: all linear .3s;
+   line-height: 22px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-left: 10px;
+    padding:0px 0px 0px 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #f436d4;
+}
+.navbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 99999;
+    padding-top: 30px;;
+}
+.btn{
+    background:linear-gradient(to right,#8033e6 ,#8739eb);
+    line-height: 50px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    }
+.navbar-light .navbar-nav .btn{
+    color:#ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    background:linear-gradient(#8f40f1,#590fc9);
+    padding-top: 16px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+   font-family: 'Anton', sans-serif;
+   border-radius:5px ;
+   border-bottom: 8px #3a0090 solid;}
+.navbar-light .navbar-nav .btn:hover{
+    color:#ffffff;
+    background:linear-gradient(#e82bc6,#b0078e);
+   border-bottom: 8px #661355 solid;}
+/*Menu Part Ends*/
+/* Banner Starts*/
+#banner{
+    background:#150035;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:176px;
+    padding-bottom: 174px;
+
+  
+}
+.bannert-text1 h3{
+    position: absolute;
+    top: 30px;
+    color:#ffffff;
+    left: 86px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+.bannert-text1 p{
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 0px;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 32px;
+    text-align: center;
+    }
+.banner-btn a{
+    color:#ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    background:linear-gradient(#8f40f1,#590fc9);
+    padding-top: 16px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+   font-family: 'Anton', sans-serif;
+   border-radius:5px ;
+   border-bottom: 8px #3a0090 solid;
+}
+/*.bannert-text1 h1{
+     color:linear-gradient(#fcb100 ,#ec9323);
+     font-size: 331px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}*/
+
+/* Banner Ends*/
+/*register part starts*/
+ #register{
+    padding: 30px 0px;
+    text-align: center;
+   
+    position: relative;
+    top: -100px;}
+   .register-item 
+   {
+       border:1px solid #45128e;
+       background:#6217d0;
+   }
+   .register-item h3{
+       color: #ffffff;
+       font-weight:400 ;
+       font-size: 32px;
+       font-family: 'Anton', sans-serif;
+       text-transform: capitalize;
+       
+   }
+   .register-item p{
+       color: #ffffff;
+       font-weight: 400;
+       font-size: 16px;
+       font-family: 'Nunito', sans-serif;
+       text-transform: capitalize;
+       text-transform: capitalize;
+       line-height: 70px;
+   }
+   #banner2{
+       background: #0b001b;
+       position: relative;
+   }
+   .related {
+    padding-top: 72px;
+    padding-bottom: 58px;
+   }
+.related-image{
+   position: relative;
+}
+.related-image .related-overlay:hover {
+   opacity: 1;
+}
+.related-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    opacity:0;
+    background: rgba(21, 0, 53, 0.7);
+}
+.related-overlay h3{
+    padding-top: 160px;
+    padding-bottom: 48px;
+     color: #ffffff;
+       font-weight:400 ;
+       font-size: 24px;
+       font-family: 'Anton', sans-serif;
+       text-transform: capitalize;
+}
+.related-overlay a{
+     color:#ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    background:linear-gradient(#8f40f1,#590fc9);
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+   font-family: 'Anton', sans-serif;
+   border-radius:5px ;
+   border-bottom: 8px #3a0090 solid;
+}
+/*register part ends*/
+/* spin starts*/
+#spin{
+    background: #150035;
+    padding-top: 90px;
+    padding-bottom: 61px;
+}
+.spin-btn a{
+     color:#ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    background:linear-gradient(#8f40f1,#590fc9);
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+   font-family: 'Anton', sans-serif;
+   border-radius:5px ;
+   border-bottom: 8px #3a0090 solid;
+}
+.spin-text p{
+     color: #ffffff;
+       font-weight: 400;
+       font-size: 16px;
+       font-family: 'Nunito', sans-serif;
+       text-transform: capitalize;
+       text-transform: capitalize;
+       padding-bottom: 47px;
+}
+/*spin ends*/
+/*Pricing Starts*/
+#pricing{
+    background: #0b001b;
+    padding-top:100px;
+    padding-bottom:55px ;
+}
+/*.pricing-text h3{
+    background-color:linear-gradient(#fcb100,#e07e1e);
+    font-weight:400 ;
+    font-size: 48px;
+     font-family: 'Anton', sans-serif;
+     text-transform: capitalize;
+}*/
+
+
+.price-item{
+     background:linear-gradient(#8f40f1,#590fc9);
+   margin-right: 30px;
+   width: 350px;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0px 0px;
+}
+.mr{
+    margin-right: 0px !important;
+}
+.upperdiv h3{
+     padding-top: 69px;
+     color: #ffffff;
+       font-weight:400 ;
+       font-size: 24px;
+       font-family: 'Anton', sans-serif;
+       text-transform: capitalize;
+}
+.upperdiv p{
+    padding-top:23px ;
+     color: #ffffff;
+       font-weight: 700;
+       font-size: 50px;
+       font-family: 'Nunito', sans-serif;
+       text-transform: capitalize;
+       text-transform: capitalize;
+}
+.upperdiv span{
+    color: #ffffff;
+       font-weight: 400;
+       font-size: 16px;
+       font-family: 'Nunito', sans-serif;
+       text-transform: capitalize;
+       text-transform: capitalize;
+       padding-bottom: 47px;
+}
+.upperdiv{
+    border-bottom:2px solid #6427b4 ;
+    padding-bottom: 31px;
+}
+.lowerdiv-text p{
+    font-weight: 600;
+    color: #ffffff;
+    font-size:16px;
+    font-family: 'Nunito', sans-serif;
+   
+}
+.lowerdiv-text{
+    padding-top: 32px;
+    padding-bottom: 34px;
+}
+.price-btn{
+    position: relative;
+    bottom: -20px ;
+    
+}
+.price-btn a{
+     color:#ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    background:linear-gradient(#8f40f1,#590fc9);
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+   font-family: 'Anton', sans-serif;
+   border-radius:5px ;
+   border-bottom: 8px #3a0090 solid;
+     transition: all linear .3s;
+}
+.featured p{
+       font-weight: 600;
+    color: #ffffff;
+    font-size:20px;
+    font-family: 'Nunito', sans-serif;
+   
+}
+.featured{
+    background:linear-gradient(#ec2dc9,#bc0e9a);
+    border-bottom: 6px solid #661355;
+    border-radius: 5px 5px 0px 0px;
+    display: none;
+    transition: all linear .3s;
+}
+.price-item:hover .featured{
+    display:block;
+}
+.price-item:hover .price-btn a{
+    background:linear-gradient(#ec2dc9,#bc0e9a);
+     border-bottom: 6px solid #661355;
+}
+/*Pricing Ends*/
+/*tournament part starts common for all pages*/
+#tournament{
+    background:#150035;
+    padding-top: 91px;
+    padding-bottom: 91px;
+
+}
+.sub-text h3{
+    text-shadow: 8px 6px 3px #5813b8;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif ;
+    padding-bottom: 18px;
+}
+.subcription{
+    background: linear-gradient(#9343f3,#5d12cd);
+    border-bottom: 7px solid #3a0090;
+    padding-top: 29px;
+    padding-bottom: 30px;
+}
+.subcription-form input{
+    background: transparent;
+    border: 1px solid #3a0090;
+    width: 370px;
+    margin-right: 0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.fa-paper-plane{
+    color: #5611b7;
+    font-size: 20px;
+}
+.subcription a{
+     border: 1px solid #3a0090;
+     margin-left: 0px;
+     padding-top: 13px;
+     padding-bottom: 13px;
+     padding-left: 13px;
+     padding-right: 13px;
+}
+input[placeholder]{
+    color:#3a0090
+}
+.contact{
+    background: #0b001b;
+    padding-top: 62px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid #000000;
+}
+.contact-text h3{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif ;
+    padding-bottom: 32px;
+}
+.contact-text p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 31px;
+    padding-bottom: 40px;
+}
+.fa-facebook,.fa-twitter,.fa-google-plus,.fa-pinterest-p{
+    color: #ffffff;
+    font-size:25px;
+    line-height:40px;
+    text-shadow:5px 5px 4px #5813b8 ;
+    transition: all linear .3s;
+}
+.links a{
+ text-align: center;
+ background:linear-gradient(#9343f3,#5d12cd);
+ padding-top:20px;
+ padding-bottom: 20px;
+ padding-left: 25px;
+ padding-right: 25px;
+ border-bottom: 4px solid  #3a0090;
+ transition: all linear .3s;
+}
+.links a:hover{
+    background: linear-gradient(#f835d5,#af058d);
+    border-bottom: 4px solid  #661355 ;
+}
+.links a:hover .fa-facebook,.links a:hover .fa-twitter, .links a:hover .fa-google-plus,.links a:hover .fa-pinterest-p{
+    text-shadow:5px 5px 4px #a60084 ;
+}
+.link-text h3{
+     color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif ;
+    padding-bottom: 32px;
+}
+.useful-links li  a{
+    color: #ffffff;
+      font-weight: 600;
+    color: #ffffff;
+    font-size:16px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.useful-links li{
+  padding-top: 14px;
+    padding-bottom: 12px;
+}
+.security-info h3{
+       color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif ;
+    padding-bottom: 32px;
+}
+.info p{
+      color: #ffffff;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 40px;
+}
+/*tournament part ends*/
+#copy{
+    background:#0b001b;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-top: 2px solid #290a59;
+}
+#copy p{
+    color: #ffffff;
+    font-size:16px ;
+    font-weight:400 ;
+     font-family: 'Nunito', sans-serif;
+    padding-top: 22px;
+}
+.banner-text h3{
+      color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif ;
+    padding-bottom: 32px;
+}
+#related{
+  background: #150035;
+  padding-bottom: 136px;
+}
+.Games{
+  padding-top: 94px;
+}
+.price-row{
+  padding-bottom: 81px;
+}
+#map{
+  position: relative;
+  height: 658px;
+}
+
+.map-overlay{
+  top: 0;
+  left: 0;
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: rgba(11, 0, 27, .9);
+}
+.map{
+ position: absolute;
+margin-bottom: 158px;
+ z-index: 99;
+}
+.map-text h3{
+        color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif ;
+    padding-bottom: 32px;
+}
+.map-text p{
+   font-size:16px ;
+    font-weight:400 ;
+     font-family: 'Nunito', sans-serif;
+    padding-top: 22px;
+    color: #ffffff;
+}
+.map-link a{
+  text-align: center;
+ background:linear-gradient(#9343f3,#5d12cd);
+ padding-top:20px;
+ padding-bottom: 20px;
+ padding-left: 44px;
+ padding-right: 44px;
+ border-bottom: 4px solid  #3a0090;
+ transition: all linear .3s;
+ color: white;
+ font-size: 43px;
+}
+.signup{
+  padding-top: 180px;
+}
+.signup-form input{
+  background: transparent;
+   -webkit-appearance: none;
+    -moz-appearance: none;
+  height: 43px;
+  border: none;
+}
+.form{
+  display: inline-block;
+    border-bottom: 2px solid #ffffff;
+  width:216px ;
+  padding-top: 60px;
+}
+.signup-form input::placeholder{
+  color: white;
+}
+.form button{
+  background: transparent;
+  width: 100%;
+  display: block;
+  color:#ffffff;
+  border: none;
+}
+.blok{
+  display:block;
+  width: 100%;
+}
+.fa-unlock-alt,.fa-envelope-o,.fa-address-book,.fa-address-book{
+  color: #ffffff;
+  font-size: 14px;
+}
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    z-index: 999999;
+    
+   }
+    #load{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+   }
+    .error-btn{
+      padding-bottom: 93px;
+      padding-top: 61px;
+    }
+   .error-btn a{
+    color:#ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    background:linear-gradient(#f835d5,#b20890);
+    padding-top: 16px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+   font-family: 'Anton', sans-serif;
+   border-radius:5px ;
+   border-bottom: 8px #661355 solid;
+   text-shadow: 8px 6px 3px #a60084;
+   }
+   .error-img{
+   padding-top:100px;
+   }
+   .back-to-top i{
+      background:blue;
+
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.back-to-top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+  
+
+}
+.tournament-text p{
+  color: #fffeff;
+  font-size: 20px;
+   font-weight:400 ;
+     font-family: 'Nunito', sans-serif;
+}
+
+.tournament-text2{
+  border: 2px solid #fcb100;
+}
+.fa-arrow-down{
+  color: #fffeff;
+}
+.tour p{
+  color: #fffeff;
+  font-size: 20px;
+   font-weight:400 ;
+     font-family: 'Nunito', sans-serif;
+
+   }
+   .tour{
+    padding-top: 50px;
+
+   }
+   .tour .row{
+border-bottom: 1px solid #000000;
+   }
+   .tour0 p{
+    color: #fffeff;
+  font-size: 20px;
+   font-weight:400 ;
+     font-family: 'Nunito', sans-serif;
+   }
+   .time{
+    border:1px solid #f2aa03;
+    border-radius: 5px;
+
+   }
+   .tour0{
+    border-top: 1px solid #1c003a;
+   }
